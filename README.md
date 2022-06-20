@@ -50,8 +50,3 @@ You can choose to play the short gamemode, in this gamemode there are only 19 st
 
 Settings can be changed in the settings tab. Once applied these settings will be saved to your system; and will be reapplied at the games' startup.
 
-![](images/SettingPersistence.gif)
-
-### Different themes
-
-![Darkmode image](./images/DarkMode.PNG) ![LightMode Image](./images/LightMode.PNG)
