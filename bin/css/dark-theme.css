@@ -1,0 +1,157 @@
+#tabel
+{
+	-fx-background-color: gray;
+	-fx-text-fill: lightgreen;
+	-fx-font-size: 10px;
+	-fx-border-style: solid;
+	-fx-border-color: #008000;
+	-fx-min-width: 36px;
+	-fx-max-width: 50px;
+	-fx-min-height: 16px;
+}
+#Eindtotaal
+{
+	-fx-background-color: gray;
+	-fx-text-fill: lightgreen;
+	-fx-font-size: 10px;
+	-fx-padding: 5px;
+	-fx-min-width: 36px;
+	-fx-min-height: 16px;
+}
+
+#verhogingsfactor
+{
+	-fx-background-color: gray;
+	-fx-text-fill: lightgreen;
+	-fx-font-size: 10px;
+	-fx-padding: 3px;
+	-fx-border-style: solid;	
+	-fx-border-color: #008000;
+	-fx-min-width: 36px;
+	-fx-min-height: 16px;
+}
+
+.root {
+    -fx-background-color: black;
+    -fx-base: #000000;
+    -fx-accent: #000000;
+    -fx-default-button: #008000 ;
+    -fx-focus-color: #008000;
+    -fx-faint-focus-color: #008000;
+    -fx-focused-text-base-color : ladder(
+            -fx-selection-bar,
+            -fx-light-text-color 45%,
+            -fx-dark-text-color 46%,
+            -fx-dark-text-color 59%,
+            -fx-mid-text-color 60%
+        );
+    -fx-focused-mark-color : -fx-focused-text-base-color ;
+
+}
+
+.text-input:focused {
+    -fx-highlight-text-fill: ladder(
+        -fx-highlight-fill,
+        -fx-light-text-color 45%,
+        -fx-dark-text-color  46%,
+        -fx-dark-text-color  59%,
+        -fx-mid-text-color   60%
+    );
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-border-style: solid;
+    -fx-label-padding: 2px;
+    
+}
+
+.hyperlink {
+    -fx-text-fill: #FFFFFF;
+    -fx-underline: true;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #B1B1B1;
+}
+
+.steen {
+    -fx-text-fill: #FFFFFF;
+}
+
+#Wit{
+	-fx-background-color: white;
+	-fx-text-fill: #000000;
+	-fx-pref-width: 40px;
+	-fx-pref-height: 40px;
+	-fx-min-width: 15px;
+	-fx-min-height: 15px;
+	-fx-padding: 0px;
+}
+
+#Grijs{
+	-fx-background-color: gray;
+	-fx-text-fill: #FFFFFF;
+	-fx-pref-width: 40px;
+	-fx-pref-height: 40px;
+	-fx-min-width: 15px;
+	-fx-min-height: 15px;
+	-fx-padding: 0px;
+}
+
+#errorOK{
+	-fx-font-weight: normal;
+	 -fx-text-fill: white;
+    -fx-border-style: solid;
+	-fx-font-family: Verdana;
+	-fx-border-radius: 4px;
+	-fx-border-color: green;
+	-fx-background-radius: 4px;
+	-fx-background-color: #008000;
+	-fx-font-size: 12px;
+	-fx-max-height:50px;
+	-fx-pref-width: 100px;
+	-fx-padding: 2px;
+	-fx-border-insets: 10px;
+    -fx-background-insets: 10px;
+}
+#popup{
+	
+
+}
+#tabel
+{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-size: 10px;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-min-width: 40px;
+    -fx-max-width: 50px;
+    -fx-min-height: 16px;
+}
+#Eindtotaal
+{
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding : 5px;
+    -fx-min-width: 40px;
+    -fx-max-width: 60px;
+    -fx-min-height: 16px;
+}
+
+#verhogingsfactor
+{
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding: 3px;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-min-width: 40px;
+    -fx-max-width: 50px;
+    -fx-min-height: 16px;
+}
